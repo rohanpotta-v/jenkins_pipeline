@@ -9,5 +9,9 @@ def hello():
 @app.route('/staging')
 def hello():
     return "Hello, This is Staging!"
+
+@app.route('/staging')
+def hello():
+    return "Hello, This is Devlopment!"
 if __name__ == '__main__':
     app.run(debug=True)
